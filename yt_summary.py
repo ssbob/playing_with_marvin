@@ -14,7 +14,7 @@ load_dotenv()
 @ai_fn
 def summarize_video(text: str) -> str:
     """
-    Summarize the transcript of a youtube video provided
+    Given `text` which is a transcript from a YouTube video, returns a summary of the video. 
     """
 
 
